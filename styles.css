@@ -1,0 +1,144 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#level-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fef2bf;
+  width: 100%;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.row {
+  display: block;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  flex-wrap: wrap;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #cf0083;
+}
+
+.green {
+  background-color: #008e3b;
+}
+
+.blue {
+  background-color: #1914ad;
+}
+
+.yellow {
+  background-color: #fdb827;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.how-to-btn {
+  position: absolute;
+  right: 2vw;
+  bottom: 5vh;
+}
+
+.how-to-btn-link {
+  color: #011f3f;
+  background-color: whitesmoke;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.instructions-bg {
+  background-color: #fef2bf;
+  font-family: "Rubik Puddles", cursive;
+  width: 50%;
+  margin: auto;
+  padding: 100px 50px;
+}
+.instructions-bg h1 {
+  font-size: 3.5rem;
+}
+
+.order-list {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  background-color: rgb(177, 204, 255);
+  border-radius: 5px;
+  font-family: "Odibee Sans", cursive;
+  font-size: 2rem;
+  color: #011f3f;
+  padding: 8px 20px;
+}
+
+/* @media screen and (max-width: 1124px) {
+
+} */
+
+@media screen and (max-width: 1124px) {
+  .container {
+    width: 60%;
+  }
+  #level-title {
+    font-size: 2.5rem;
+  }
+  .btn {
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+    border: 8px solid black;
+  }
+  .instructions-bg {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    border: 7px solid black;
+  }
+  .instructions-bg {
+    width: 80%;
+    padding: 20px 30px 50px 20px;
+    margin: auto;
+  }
+}
